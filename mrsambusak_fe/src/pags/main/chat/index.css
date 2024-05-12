@@ -1,0 +1,54 @@
+
+
+.group-users-headline {
+    margin-left: 12px; 
+}
+
+.group-users-box {
+    height: 500px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 18px 0 rgba(0, 0, 0, 0.15);
+    border: 0.01px solid rgb(212, 212, 212);
+    border-radius: 1%;
+    padding: 25px;
+    overflow: auto;
+}
+
+.group-users-list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.group-users-list-box {
+    margin-left: auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 2%;
+} 
+
+.chat-box {
+    height: 500px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 18px 0 rgba(0, 0, 0, 0.15);
+    border: 0.01px solid rgb(212, 212, 212);
+    border-radius: 1%;
+    padding: 25px;
+    overflow: auto;
+}
+
+.chat-box-massages {
+    height: 89%;
+    overflow: auto; 
+}
+
+.delete-maseeage-button {
+    font-size: 9px;
+    padding: 5px 10px;
+    color: red !important;
+}
+
+.input-maseeage-box {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}

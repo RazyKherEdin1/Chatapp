@@ -1,0 +1,20 @@
+
+.center {
+    text-align: center !important;
+}
+
+.register-box {
+    margin-inline: 30% !important;
+    margin-top: 5%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 18px 0 rgba(0, 0, 0, 0.15);
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 1%;
+}
+
+.headline {
+    margin-top: 5% !important;
+}
+
+.text-field-style {
+    margin-inline: 10% !important;
+}
