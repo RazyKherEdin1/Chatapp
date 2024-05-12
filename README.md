@@ -1,6 +1,5 @@
-Here is the complete markdown documentation for the Mrsambosk Chat App that you can use directly:
 
-```markdown
+
 # Mrsambosk Chat App
 
 Mrsambosk is a real-time chat application built with FastAPI and React. It supports single-room chat functionality, allows users to see who is online, send messages, and delete messages using both WebSocket and HTTP protocols.
