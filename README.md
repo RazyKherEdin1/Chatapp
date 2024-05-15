@@ -69,4 +69,34 @@ pytest
 * [FastAPI](https://fastapi.tiangolo.com/) - The web framework used for the backend.
 * [React](https://reactjs.org/) - Frontend library used for building the user interface.
 * [Socket.IO](https://socket.io/) - Enables real-time, bidirectional and event-based communication.
+
+
+
+
+## Future Additions: 
+#Private Rooms Chat
+This document outlines how to potentially add private rooms functionality to the Mrsambosk chat application.
+## Adding Media to Chat and Cloud Storage
+This section explores how to incorporate media sharing and cloud storage functionality into the Mrsambosk chat application.
+## User Authentication and Authorization
+**User Registration and Login: Implement user registration, login, and authentication using OAuth2 or JWT.**
+**Role-Based Access Control: Define user roles (admin, moderator, regular user) and permissions for different actions**
+## Notifications
+Push Notifications: Send real-time notifications for new messages, mentions, or specific events.
+Email Notifications: Notify users via email for specific events or messages when they are offline.
+## Security Enhancements
+Data Privacy: Ensure compliance with data protection regulations like GDPR.
+## Performance and Scalability
+Load Balancing,Database Optimization and Scalable WebSocket Handling
+
+## Challenges:
+**Integrating file upload functionality into the frontend.**
+**Uploading media files to a cloud storage service.**
+**Storing references or URLs to uploaded media in the database.**
+**Implementing a mechanism for creating and managing private rooms.**
+**User invitations and access control for private rooms..**
+**Maintaining real-time communication within specific rooms.**
+
+
+
 ```
