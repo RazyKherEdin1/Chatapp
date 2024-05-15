@@ -78,7 +78,7 @@ pytest
 This document outlines how to potentially add private rooms functionality to the Mrsambosk chat application.
 ** Adding Media to Chat and Cloud Storage**
 This section explores how to incorporate media sharing and cloud storage functionality into the Mrsambosk chat application.
-** User Authentication and Authorization **
+**User Authentication and Authorization**
 * User Registration and Login: Implement user registration, login, and authentication using OAuth2 or JWT.
 * Role-Based Access Control: Define user roles (admin, moderator, regular user) and permissions for different actions
 **Notifications**
