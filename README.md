@@ -79,11 +79,11 @@ This document outlines how to potentially add private rooms functionality to the
 - **Adding Media to Chat and Cloud Storage**:
 This section explores how to incorporate media sharing and cloud storage functionality into the Mrsambosk chat application.
 - **User Authentication and Authorization**
-1.User Registration and Login: Implement user registration, login, and authentication using OAuth2 or JWT.
-2.Role-Based Access Control: Define user roles (admin, moderator, regular user) and permissions for different actions.
+- User Registration and Login: Implement user registration, login, and authentication using OAuth2 or JWT.
+- Role-Based Access Control: Define user roles (admin, moderator, regular user) and permissions for different actions.
 - **Notifications**
-1.Push Notifications: Send real-time notifications for new messages, mentions, or specific events.
-2.Email Notifications: Notify users via email for specific events or messages when they are offline.
+- Push Notifications: Send real-time notifications for new messages, mentions, or specific events.
+- Email Notifications: Notify users via email for specific events or messages when they are offline.
 - **Security Enhancements**
 Data Privacy: Ensure compliance with data protection regulations like GDPR.
 - **Performance and Scalability**
