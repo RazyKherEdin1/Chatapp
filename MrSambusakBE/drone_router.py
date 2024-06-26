@@ -35,7 +35,7 @@ async def websocket_endpoint(websocket: WebSocket):
     global master_drone
     await websocket.accept()
     try:
-        master_drone = await asyncio.get_running_loop().run_in_executor(None, RaziPowerDrone)
+        master_drone = await asyncio.get_running_loop().run_in_executor(None, PowerDrone)
         if master_drone:
             await websocket.send_json({"status": "OK"})
         consumer_task = asyncio.create_task(handle_commands(websocket, master_drone))
