@@ -6,7 +6,7 @@ from urls import router as api_router
 from middlewares import setup_cors
 from consumers import websocket_endpoint
 from database import init_db,engine
-
+from drone_router import router as ws_router
 
 app = FastAPI()
 
@@ -18,6 +18,7 @@ setup_cors(app)
 app.websocket("/ws/{client_id}")(websocket_endpoint)
 
 app.include_router(api_router)
+app.include_router(ws_router)
 
 if __name__ == "__main__":
   

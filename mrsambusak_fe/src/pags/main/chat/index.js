@@ -16,8 +16,6 @@ import Divider from '@mui/material/Divider';
 import ws from '../../../hooks/useWebSocket'
 import './index.css';
 
-
-
 function Chat() {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
@@ -98,7 +96,6 @@ function Chat() {
   },[ws])
   
   return (
-
     <Container>
       <Box>
         <Grid container spacing={2}>
@@ -130,7 +127,7 @@ function Chat() {
                 {messages.map((message, index) => (
                   <Box key={index} className="mb-2">
                     <strong>
-                      {message.sender_id === current_user_id ||
+                      {message.sender_id == current_user_id ||
                       message.sender === "You"
                         ? "You"
                         : message.sender}
@@ -181,8 +178,6 @@ function Chat() {
         </Grid>
       </Box>
     </Container>
-
-  
   );
 }
 

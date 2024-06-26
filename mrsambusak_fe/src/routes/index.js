@@ -9,15 +9,12 @@ import GuestRequire from "../middlewares/guest_require";
 import Login from "../pags/auth/login";
 import Chat from "../pags/main/chat";
 import AuthRequired from "../middlewares/auth_require";
-
-
-
+import Drone from "../pags/main/drone";
+import Navbar from "../components/Navbar";
 
 export default function Routes(){
-
     return(
         <Router>
-
             <Switch>
                 <Route path="/register" element={
                     <GuestRequire>
@@ -33,11 +30,18 @@ export default function Routes(){
  
                 <Route path="/chat" element={
                     <AuthRequired>
+                        <Navbar/>
                         <Chat/>
+                    </AuthRequired>
+                }/>
+
+                <Route path="/drone" element={
+                    <AuthRequired>
+                        <Navbar/>
+                        <Drone/>
                     </AuthRequired>
                 }/>
             </Switch>
         </Router>
-        )
-    }
-
+    )
+}

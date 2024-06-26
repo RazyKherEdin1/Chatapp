@@ -6,8 +6,6 @@ import {
 const AuthRequired = ({children})=>{
     const user = localStorage.getItem('user')
     if(!user){
-        
-
         return <Navigate to={'/'} /> //login page
     }else{
         return children

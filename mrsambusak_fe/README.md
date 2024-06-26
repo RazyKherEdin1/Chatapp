@@ -19,7 +19,7 @@ Before starting, make sure you have the following installed:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/RazyKherEdin1/SambuskChat.git
+   git clone https://github.com/yourusername/Mrsambosk.git
    ```
 
 2. Navigate to the server directory of the project:
